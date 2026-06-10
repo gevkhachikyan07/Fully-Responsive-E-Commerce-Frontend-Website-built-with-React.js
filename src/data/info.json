@@ -1,0 +1,48 @@
+[
+  {
+    "id": 0,
+    "img": "https://themewagon.github.io/karl/img/product-img/product-1.jpg",
+    "num": 1
+  },
+  {
+    "id": 1,
+    "img": "https://themewagon.github.io/karl/img/product-img/product-2.jpg",
+    "num": 1
+  },
+  {
+    "id": 2,
+    "img": "https://themewagon.github.io/karl/img/product-img/product-3.jpg",
+    "num": 1
+  },
+  {
+    "id": 3,
+    "img": "https://themewagon.github.io/karl/img/product-img/product-4.jpg",
+    "num": 1
+  },
+  {
+    "id": 4,
+    "img": "https://themewagon.github.io/karl/img/product-img/product-5.jpg",
+    "num": 1
+  },
+  {
+    "id": 5,
+    "img": "https://themewagon.github.io/karl/img/product-img/product-6.jpg",
+    "num": 1
+  },
+  {
+    "id": 6,
+    "img": "https://themewagon.github.io/karl/img/product-img/product-7.jpg",
+    "num": 1
+  },
+  {
+    "id": 7,
+    "img": "https://themewagon.github.io/karl/img/product-img/product-8.jpg",
+    "num": 1
+  },
+  {
+    "id": 8,
+    "img": "https://themewagon.github.io/karl/img/product-img/product-9.jpg",
+    "num": 1
+  }
+
+]
