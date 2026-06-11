@@ -1,6 +1,24 @@
+## React E-Commerce Website
 
+A fully responsive e-commerce frontend application built with React.js, featuring product browsing, shopping cart functionality, and a modern UI design.
+## Features
 
-## 📸 Project Preview
+ Home page with modern UI
+ Product listing page
+ Shopping cart functionality
+ Add / remove items from cart
+ Cart quantity management
+ Product details pages
+ Fully responsive design
+ Clean UI with custom styling
+##  Tech Stack
+React.js
+React Router DOM
+Redux 
+CSS / Styled Components
+JavaScript (ES6+) 
+
+##  Project Preview
 
 (https://github.com/user-attachments/assets/744cd70c-d13d-49fd-837c-f570cadbf09c)
 
