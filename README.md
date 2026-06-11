@@ -3,17 +3,17 @@
 A fully responsive e-commerce frontend application built with React.js, featuring product browsing, shopping cart functionality, and a modern UI design.
 ## Features
 
- --Home page with modern UI
- --Product listing page
- --Shopping cart functionality
- --Add / remove items from cart
- --Cart quantity management
- --Product details pages
- --Fully responsive design
- --Clean UI with custom styling
+ -Home page with modern UI
+ -Product listing page
+ -Shopping cart functionality
+ -Add / remove items from cart
+ -Cart quantity management
+ -Product details pages
+ -Fully responsive design
+ -Clean UI with custom styling
 ##  Tech Stack
---React.js
---React Router DOM
+-React.js
+-React Router DOM
 --Redux 
 --CSS / Styled Components
 --JavaScript (ES6+) 
