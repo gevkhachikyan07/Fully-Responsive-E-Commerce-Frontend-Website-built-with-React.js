@@ -40,32 +40,32 @@ function Menu() {
 
     const config = {
         1: {
-            pos: [150, -20, -190, -359, -530],
+            pos: [150, -20, -190, -360, -530],
             white: -690,
             active: 1
         },
         2: {
-            pos: [-20, -80, -250, -419, -590],
+            pos: [-20, -80, -250, -420, -590],
             white: -750,
             active: 2
         },
         3: {
-            pos: [-20, -190, -280, -449, -620],
+            pos: [-20, -190, -280, -450, -620],
             white: -780,
             active: 3
         },
         4: {
-            pos: [-20, -190, -360, -449, -620],
+            pos: [-20, -190, -360, -450, -620],
             white: -780,
             active: 4
         },
         5: {
-            pos: [-20, -190, -360, -529, -590],
+            pos: [-20, -190, -360, -530, -590],
             white: -750,
             active: 5
         },
         6: {
-            pos: [-20, -190, -360, -529, -700],
+            pos: [-20, -190, -360, -530, -700],
             white: -760,
             active: 6
         }
@@ -98,10 +98,10 @@ function Menu() {
         }
     };
     return (
-        <div style={{width:'100%',height:'410px',display:"flex",flexDirection:"column",alignItems:"center"}}>
+        <div className={"menu"} style={{width:'100%',height:'410px',display:"flex",flexDirection:"column",alignItems:"center"}}>
             <div className={"menu_part1"}>
                 <div className={'menu_logo'}>
-                    <img src={"https://themewagon.github.io/karl/img/core-img/logo.png"} width="140px" height="50px" />
+                    <img className={"logo_img"} src={"https://themewagon.github.io/karl/img/core-img/logo.png"} width="140px" height="50px" />
                 </div>
                 <div className={'menu_right'}>
                     <div onClick={bagGoods} className={"bag_img"}></div>
@@ -121,9 +121,9 @@ function Menu() {
                 </div>
                 <div className={'menu_links'}>
                     <Link className={"menu_link"} to="/">Home</Link>
-                    <div style={{fontSize:"20px",cursor:"pointer"}} onClick={openPages}>Pages</div>
+                    <div className={"divPage"} style={{fontSize:"20px",cursor:"pointer"}} onClick={openPages}>Pages</div>
                     {click3 ?
-                        <div style={{
+                        <div className={"windPage"} style={{
                                 width:"140px",height:"145px",
                                 position:"absolute",
                                 top:"170px",
@@ -183,7 +183,7 @@ function Menu() {
                 <div  className={'menu_panel'} style={click ?{transform: 'translateX(0%)',transition:"0.5s"}:{transform: 'translateX(-350px)',transition:"0.5s"}} >
                     <div onClick={menuPanel} className={'menu_panel_close'}>x</div>
                     <div className={"shop_left"} style={{width:'100%'}}>
-                    <span style={{fontSize:"20px",marginTop:"70px",marginLeft:"10px"}}>Categories</span>
+                    <span className={"menu_panel_text"} style={{fontSize:"20px",marginTop:"70px",marginLeft:"10px"}}>Categories</span>
                     <div onClick={()=>openDiv(1)} style={{width:'100%',height:'80px',background:"white",
                         position:"relative"
                         ,top:pos1+"px",
@@ -195,8 +195,8 @@ function Menu() {
                         <div className={"details_div"}
                              style={{minHeight:'30px',border:'0',
                                  borderBottom:"1px solid grey",cursor:'pointer'}}>
-                            <span style={{marginLeft:"30px",fontSize:'18px'}}>Woman Wear</span>
-                            <svg style={{marginLeft:'80px',transition:'0.2s',opacity:deg1}}
+                            <span className={"details_div_t1"} style={{marginLeft:"30px",fontSize:'18px'}}>Woman Wear</span>
+                            <svg style={{position:'absolute',right:'10px',transition:'0.2s',opacity:deg1}}
                                  viewBox="0 0 512 512" height="1em" xmlns="http://www.w3.org/2000/svg"
                                  className="chevron-down">
                                 <path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8
@@ -224,8 +224,8 @@ function Menu() {
 
                     }}>
                         <div className={"details_div"} style={{height:'30px',cursor:'pointer'}}>
-                            <span style={{marginLeft:"30px",fontSize:'18px'}}>Man Wear</span>
-                            <svg style={{marginLeft:'102px',transition:'0.2s',opacity:deg2}}
+                            <span className={"details_div_t1"}  style={{marginLeft:"30px",fontSize:'18px'}}>Man Wear</span>
+                            <svg style={{position:'absolute',right:'10px',transition:'0.2s',opacity:deg2}}
                                  viewBox="0 0 512 512" height="1em" xmlns="http://www.w3.org/2000/svg"
                                  className="chevron-down">
                                 <path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8
@@ -249,8 +249,8 @@ function Menu() {
 
                     }}>
                         <div className={"details_div"} style={{height:'30px',cursor:'pointer'}}>
-                            <span style={{marginLeft:"30px",fontSize:'18px'}}>Children</span>
-                            <svg style={{marginLeft:'113px',transition:'0.2s',opacity:deg3}}
+                            <span className={"details_div_t1"}  style={{marginLeft:"30px",fontSize:'18px'}}>Children</span>
+                            <svg style={{position:'absolute',right:'10px',transition:'0.2s',opacity:deg3}}
                                  viewBox="0 0 512 512" height="1em" xmlns="http://www.w3.org/2000/svg"
                                  className="chevron-down">
                                 <path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8
@@ -272,8 +272,8 @@ function Menu() {
 
                     }}>
                         <div className={"details_div"} style={{height:'30px',cursor:'pointer'}}>
-                            <span style={{marginLeft:"30px",fontSize:'18px'}}>Bags & Purses</span>
-                            <svg style={{marginLeft:'70px',transition:'0.2s',opacity:deg4}}
+                            <span className={"details_div_t1"}  style={{marginLeft:"30px",fontSize:'18px'}}>Bags & Purses</span>
+                            <svg style={{position:'absolute',right:'10px',transition:'0.2s',opacity:deg4}}
                                  viewBox="0 0 512 512" height="1em" xmlns="http://www.w3.org/2000/svg"
                                  className="chevron-down">
                                 <path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8
@@ -295,8 +295,8 @@ function Menu() {
 
                     }}>
                         <div className={"details_div"} style={{height:'30px',cursor:'pointer'}}>
-                            <span style={{marginLeft:"30px",fontSize:'18px'}}>Eyewear</span>
-                            <svg style={{marginLeft:'113px',transition:'0.2s',opacity:deg5}}
+                            <span className={"details_div_t1"}  style={{marginLeft:"30px",fontSize:'18px'}}>Eyewear</span>
+                            <svg style={{position:'absolute',right:'10px',transition:'0.2s',opacity:deg5}}
                                  viewBox="0 0 512 512" height="1em" xmlns="http://www.w3.org/2000/svg"
                                  className="chevron-down">
                                 <path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8
@@ -319,8 +319,8 @@ function Menu() {
 
                     }}>
                         <div className={"details_div"} style={{height:'30px',cursor:'pointer'}}>
-                            <span style={{marginLeft:"30px",fontSize:'18px'}}>Footwear</span>
-                            <svg style={{marginLeft:'108px',transition:'0.2s',opacity:deg6}}
+                            <span className={"details_div_t1"}  style={{marginLeft:"30px",fontSize:'18px'}}>Footwear</span>
+                            <svg style={{position:'absolute',right:'10px',transition:'0.2s',opacity:deg6}}
                                  viewBox="0 0 512 512" height="1em" xmlns="http://www.w3.org/2000/svg"
                                  className="chevron-down">
                                 <path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8
@@ -351,9 +351,9 @@ function Menu() {
                                     </div>
                                     <button style={{position:"absolute",right:"0"
                                         ,top:"0",background:"none",border:"none",cursor:"pointer"}} onClick={()=>del(item.id)}>x</button>
-                                    <span style={{fontSize:"13px"}}>Jeans midi cocktail dress</span>
-                                    <span style={{position:"absolute",top:"40px",left:"65px",fontSize:"13px"}}>$23.99</span>
-                                    <span style={{fontSize:'13px',position:'absolute',top:'8px',left:'65px'}}>({item.num})</span>
+                                    <span className={"bagDivt1"} style={{fontSize:"13px"}}>Jeans midi cocktail dress</span>
+                                    <span className={"bagDivt2"} style={{position:"absolute",top:"40px",left:"65px",fontSize:"13px"}}>$23.99</span>
+                                    <span className={"bagDivt3"} style={{fontSize:'13px',position:'absolute',top:'8px',left:'65px'}}>({item.num})</span>
                                 </div>:null
                     ))}
                     {bagData.length >= 4 ?

@@ -9,12 +9,12 @@ function Slide2(props) {
         arrows: false,
     }
     return (
-        <div style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
-            <span style={{marginTop:"30px",fontSize:"50px"}}>TESTIMONIALS</span>
-            <Slider {...settings} style={{width:'80%',height:'400px'}} >
+        <div  style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
+            <span className={"slider2_t1"} style={{marginTop:"30px",fontSize:"50px"}}>TESTIMONIALS</span>
+            <Slider className={"slider2"} {...settings} style={{width:'80%',height:'400px'}} >
                 <div>
-                    <div style={{width:"90%",height:"400px",margin:"auto",textAlign:"center",display:"flex",flexDirection:"column",justifyContent:"center",alignItems:'center'}}>
-                        <span style={{fontSize:"20px"}}>
+                    <div className={"slider2_d1"} style={{width:"90%",height:"400px",margin:"auto",textAlign:"center",display:"flex",flexDirection:"column",justifyContent:"center",alignItems:'center'}}>
+                        <span className={"slider2_t2"} style={{fontSize:"20px"}}>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt ut labore et dolore magna aliqua.
                             Ut enim ad minim veniam, quis nostrud exercitation
@@ -24,14 +24,14 @@ function Slide2(props) {
                             fficia deserunt mollit anim id est laborum.
                         </span>
                         <div style={{width:"250px",height:"100px",display:"flex",justifyContent:"space-evenly",alignItems:'center'}}>
-                            <div style={{width:"70px",height:"70px",borderRadius:"50%",background:"url(https://themewagon.github.io/karl/img/bg-img/tes-1.jpg)",backgroundSize:"cover"}}></div>
-                            <span>Dacota Williams<br/>Los angeles client</span>
+                            <div className={"slider2_img"} style={{width:"70px",height:"70px",borderRadius:"50%",background:"url(https://themewagon.github.io/karl/img/bg-img/tes-1.jpg)",backgroundSize:"cover"}}></div>
+                            <span className={"slider2_img_t"}>Dacota Williams<br/>Los angeles client</span>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <div style={{width:"90%",height:"400px",margin:"auto",textAlign:"center",display:"flex",flexDirection:"column",justifyContent:"center",alignItems:'center'}}>
-                        <span style={{fontSize:"20px"}}>
+                    <div className={"slider2_d1"} style={{width:"90%",height:"400px",margin:"auto",textAlign:"center",display:"flex",flexDirection:"column",justifyContent:"center",alignItems:'center'}}>
+                        <span className={"slider2_t2"} style={{fontSize:"20px"}}>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt ut labore et dolore magna aliqua.
                             Ut enim ad minim veniam, quis nostrud exercitation
@@ -41,14 +41,14 @@ function Slide2(props) {
                             fficia deserunt mollit anim id est laborum.
                         </span>
                         <div style={{width:"250px",height:"100px",display:"flex",justifyContent:"space-evenly",alignItems:'center'}}>
-                            <div style={{width:"70px",height:"70px",borderRadius:"50%",background:"url(https://themewagon.github.io/karl/img/bg-img/tes-1.jpg)",backgroundSize:"cover"}}></div>
-                            <span>Dacota Williams<br/>Los angeles client</span>
+                            <div className={"slider2_img"} style={{width:"70px",height:"70px",borderRadius:"50%",background:"url(https://themewagon.github.io/karl/img/bg-img/tes-1.jpg)",backgroundSize:"cover"}}></div>
+                            <span className={"slider2_img_t"}>Dacota Williams<br/>Los angeles client</span>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <div style={{width:"90%",height:"400px",margin:"auto",textAlign:"center",display:"flex",flexDirection:"column",justifyContent:"center",alignItems:'center'}}>
-                        <span style={{fontSize:"20px"}}>
+                    <div className={"slider2_d1"} style={{width:"90%",height:"400px",margin:"auto",textAlign:"center",display:"flex",flexDirection:"column",justifyContent:"center",alignItems:'center'}}>
+                        <span className={"slider2_t2"} style={{fontSize:"20px"}}>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt ut labore et dolore magna aliqua.
                             Ut enim ad minim veniam, quis nostrud exercitation
@@ -58,8 +58,8 @@ function Slide2(props) {
                             fficia deserunt mollit anim id est laborum.
                         </span>
                         <div style={{width:"250px",height:"100px",display:"flex",justifyContent:"space-evenly",alignItems:'center'}}>
-                            <div style={{width:"70px",height:"70px",borderRadius:"50%",background:"url(https://themewagon.github.io/karl/img/bg-img/tes-1.jpg)",backgroundSize:"cover"}}></div>
-                            <span>Dacota Williams<br/>Los angeles client</span>
+                            <div className={"slider2_img"} style={{width:"70px",height:"70px",borderRadius:"50%",background:"url(https://themewagon.github.io/karl/img/bg-img/tes-1.jpg)",backgroundSize:"cover"}}></div>
+                            <span className={"slider2_img_t"}>Dacota Williams<br/>Los angeles client</span>
                         </div>
                     </div>
                 </div>

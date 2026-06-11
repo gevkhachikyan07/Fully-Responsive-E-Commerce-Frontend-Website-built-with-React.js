@@ -2,8 +2,8 @@ import React from 'react';
 
 function Part2(props) {
     return (
-        <div style={{marginTop:"30px",width:'100%',height:'600px',display:'flex'}}>
-            <div style={{width:"50%",height:"600px",
+        <div className={"part2"} style={{marginTop:"30px",width:'100%',height:'600px',display:'flex'}}>
+            <div className={"part2_1"}  style={{width:"50%",height:"600px",
                     background:"url(https://themewagon.github.io/karl/img/bg-img/bg-2.jpg)",
                     backgroundSize:"cover",display:"flex",flexDirection:"column",justifyContent:"center",position:'relative'}}>
                 <span className={"part2_text1"}>On Accesories</span>
@@ -15,7 +15,7 @@ function Part2(props) {
                     <button className={"part2_but"}>SHOP NOW</button>
                 </div>
             </div>
-            <div style={{width:"50%",height:"600px",
+            <div className={"part2_1"} style={{width:"50%",height:"600px",
                 background:"url(https://themewagon.github.io/karl/img/bg-img/bg-4.jpg)",
                 backgroundSize:"100% 100%",display:"flex",flexDirection:"column",justifyContent:"center",position:'relative'}}>
                 <span className={"part2_text1"}>In Bags excepting the new collection</span>

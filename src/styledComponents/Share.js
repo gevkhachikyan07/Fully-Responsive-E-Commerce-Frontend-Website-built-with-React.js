@@ -14,7 +14,7 @@ const Button = () => {
                         </svg>
                     </li>
                 </a>
-                <a href={"https://x.com/?lang=ru"} target={"_blank"} style={{color:'black',textDecoration:'none'}}>
+                <a className={"face_logo"} href={"https://x.com/?lang=ru"} target={"_blank"} style={{color:'black',textDecoration:'none'}}>
 
                     <li className="icon twitter">
                         <span className="tooltip">Twitter</span>

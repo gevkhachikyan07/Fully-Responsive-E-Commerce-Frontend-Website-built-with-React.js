@@ -50,7 +50,7 @@ function Part3() {
     }
 
     return (
-        <div style={{
+        <div className={"part3"} style={{
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
@@ -70,7 +70,7 @@ function Part3() {
                                      className={"part3_img"}>
                                     <div className={"box_bg"}>
                                         <div onClick={() => handleClick(item.id)} className={"box_circle"}><span
-                                            style={{fontSize: "35px"}}>+</span></div>
+                                             className={"box_plus"} style={{fontSize: "35px"}}>+</span></div>
                                     </div>
                                 </div>
                             </div>
@@ -109,9 +109,11 @@ function Part3() {
                             <span className="wind_text2">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                               </span>
-                            <button onClick={()=>handlePlus()} className={"plus"}>+</button>
-                            <input className={"input1"} type="number" value={value} onChange={handleChange}/>
-                            <button onClick={()=>handleMinus()} className={"minus"}>-</button>
+                            <div className={"wind_buts"}>
+                                <button onClick={()=>handlePlus()} className={"plus"}>+</button>
+                                <input className={"input1"} type="number" value={value} onChange={handleChange}/>
+                                <button onClick={()=>handleMinus()} className={"minus"}>-</button>
+                            </div>
                             <button onClick={()=>bagValue(item.id,item.img)} className="wind_but2">ADD TO CART</button>
                         </div>
                     </div>

@@ -30,8 +30,8 @@ function Slide(props) {
         ),
     }
     return (
-        <div style={{width:"100%",height:"700px"}}>
-            <Slider style={{width:"100%",height:"700px",position:"relative"}} {...settings}>
+        <div className={"slider1"} style={{width:"100%",height:"700px"}}>
+            <Slider className={"s"}  style={{width:"100%",height:"700px",position:"relative"}} {...settings}>
                 <div>
                     <div className={"slide s1"}>
                     </div>
